@@ -15,3 +15,4 @@ urlpatterns = [
   # Detail page for result.
   path('result/', views.get_result, name='result'),
 ]
+
