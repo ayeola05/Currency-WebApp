@@ -10,9 +10,9 @@ urlpatterns = [
   path('', views.index, name='index'),
 
   # Page that shows inputs
-  path('input/', views.convert_currency, name='input'),
+  path('input/', views.input, name='input'),
 
   # Detail page for result.
-  path('result/', views.get_result, name='result'),
+  path('result/', views.result, name='result'),
 ]
 

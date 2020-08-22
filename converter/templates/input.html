@@ -7,7 +7,7 @@
 </head>
 <body>
 
-  <form action="{}" method='post'>
+  <form action="{% url 'converter:result' %}" method='post'>
     {% csrf_token %}
     {{ form.as_p }}
     <input type="submit" value="Convert">
